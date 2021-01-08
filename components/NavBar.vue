@@ -5,7 +5,7 @@
         </nuxt-link>
         <nav>
             <nuxt-link to="/"> list </nuxt-link>
-            <nuxt-link to="/create"> create </nuxt-link>
+            <nuxt-link to="/event/create"> create </nuxt-link>
         </nav>
     </div>
 </template>
