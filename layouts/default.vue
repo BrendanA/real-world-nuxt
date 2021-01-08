@@ -1,8 +1,18 @@
 <template>
   <div id="app">
+    <nav-bar/>
     <nuxt />
   </div>
 </template>
+
+<script>
+import NavBar from '~/components/NavBar.vue'
+export default {
+  components: {
+    NavBar
+  }
+}
+</script>
 
 <style>
   html {
@@ -18,7 +28,8 @@
   }
   #app {
     box-sizing: border-box;
-    width: 500px;
+    max-width: 1000px;
+    width: 100%;
     padding: 0 20px 20px;
     margin: 0 auto;
   }
