@@ -27,6 +27,12 @@ export default {
   buildModules: [
   ],
 
+  loading: { color: '#39b982' },
+
+  server: {
+    port: 3001, // default: 3000
+  },
+
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios
